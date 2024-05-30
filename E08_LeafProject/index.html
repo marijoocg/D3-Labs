@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>    
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>E08 | Leaf Project</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/d3-tip.css">
+    <script src="js/d3-tip.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css' rel='stylesheet' type='text/css'>
+    
+</head>
+
+<body style="background-color: #2c2d2e;">
+    <nav class="navbar navbar-default" style="background-color: #dfdfdf;">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png"></a>      
+        </div>
+    </nav>
+
+    <!-- Bootstrap grid setup -->
+    <div class="container">
+        <div class="row">
+            <div class="col" style="float: left;">
+                <button id="play-button" class="btn btn-primary" style="background-color: #455f82;border: #455f82;display: inline;">Play</button>
+                <button id="reset-button" class="btn btn-primary" style="background-color: #455f82;border: #455f82;display: inline;">Reset</button>                
+            </div>
+            
+            <div class="col-sm-9">
+                <div id="slider-div" style="color:#ffffff;">
+                    <label>Year: <span id="year">1800 </span></label>
+                    <div id="date-slider"></div>
+                </div>
+            </div>
+
+            <div class="col" style="float: right;">
+                <select id="continent-select" class="form-control" style="background-color: #2c2d2e;color:#ffffff;">
+                    <option selected value="all">All</option>
+                    <option value="europe">Europe</option>
+                    <option value="asia">Asia</option>
+                    <option value="americas">Americas</option>
+                    <option value="africa">Africa</option>
+                </select>
+            </div>
+            <div id="chart-area"></div>  
+        </div>
+    </div>
+
+<!-- External JS libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/d3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/d3-tip.js"></script>
+<!-- Custom JS -->
+<script src="js/main.js"></script>
+s
+</body>
+</html>
+
+
+
+
+
+
